@@ -134,11 +134,9 @@ span.onclick = function () {
             
             document.querySelector('body').classList.add("active");
 
-            window.localStorage.setItem("theme" , "active");
         }else{
             
             document.querySelector('body').classList.remove("active");
-            window.localStorage.setItem("theme", null);
         }
     }
 
